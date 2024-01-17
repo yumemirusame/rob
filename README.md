@@ -32,7 +32,7 @@ while true do wait()
 
 									hum:MoveTo(waypoint.Position)
 
-									hum.MoveToFinished:Wait()  --I need the above program to make the enemies PathFinding, but I'll comment it out because this program makes the enemies move only one by one,please find a soultion
+									hum.MoveToFinished:Wait()
 
 									local waypointDistance = (hrp.Position - waypoints[#waypoints].Position).Magnitude
 									local playerDistance = (hrp.Position - target.HumanoidRootPart.Position).Magnitude
